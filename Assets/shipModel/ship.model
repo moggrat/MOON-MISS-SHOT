@@ -1,0 +1,15 @@
+# Made using Asset Forge (2.0 preview-1e)
+
+:materials
+
+[name:_defaultMat;color:RGBA(0.310, 0.310, 0.310, 1.000);scale:(1.0, 1.0);texture:Patterns/panels.png;shader:Standard;valueA:0.5;valueB:0.15;]
+[name:metalPurple;color:RGBA(0.724, 0.449, 0.000, 1.000);scale:(1.0, 1.0);texture:Patterns/panels.png;shader:Standard;valueA:0.35;valueB:0;]
+[name:shield;color:RGBA(0.110, 0.110, 0.110, 1.000);scale:(1.0, 1.0);texture:Patterns/hazard.png;shader:Standard;valueA:0.35;valueB:0.35;]
+
+:models
+
+[name:;collection:Aircraft;type:hull_body;position:(-0.0405, 0.4000, -0.9713);rotation:(270.0000, 0.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:metalPurple+_defaultMat;]
+[name:;collection:Aircraft;type:engine_turbine;position:(-0.0405, 0.8000, -0.0713);rotation:(90.0000, 180.0000, 0.0000);scale:(1.0000, 1.0000, 2.0000);group:;locked:False;hidden:False;materials:_defaultMat+metalPurple+shield;]
+[name:;collection:Aircraft;type:hull_cockpitSlant;position:(-0.0405, 1.4000, -0.9713);rotation:(270.0000, 0.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:_defaultMat+metalPurple+shield;]
+[name:;collection:Vehicles;type:wheel_ridges;position:(0.4000, 0.0000, -1.4000);rotation:(0.0000, 0.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:shield+metalPurple+shield;]
+[name:;collection:Vehicles;type:wheel_ridges;position:(-0.5000, 0.0000, -1.4000);rotation:(0.0000, 180.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:shield+metalPurple+shield;]
