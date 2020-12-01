@@ -1,4 +1,4 @@
-# [Web Prototype] (https://moggrat.itch.io/moon-miss-shot)
+# [Web Prototype](https://moggrat.itch.io/moon-miss-shot)
 
 ## Development Background:
 
