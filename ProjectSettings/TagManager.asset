@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - GravitationalObject
+  - Wall
+  - Wall1
+  - Wall2
   layers:
   - Default
   - TransparentFX
